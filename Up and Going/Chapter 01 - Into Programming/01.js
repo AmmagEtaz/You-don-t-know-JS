@@ -20,8 +20,8 @@ while(amount < budget) {
 
   if(amount < SPENDING_TRESHOLD) {
       amount = amount + ACCESSORY_COST;
-    }
   }
+}
 
 amount = amount + addTax( amount );
 console.log("Your purchase plus tax" + formatAmount( amount );
